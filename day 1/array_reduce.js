@@ -6,6 +6,7 @@ for (let n of number) {
   sum += n;
 }
 console.log(sum);
+
 const sam = number.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 }, 0);
