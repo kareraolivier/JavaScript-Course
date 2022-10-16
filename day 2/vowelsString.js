@@ -1,4 +1,4 @@
-//count vowel in a iven string
+//count vowel in a given string
 
 //
 function vowelcount(str) {
@@ -6,6 +6,7 @@ function vowelcount(str) {
   var vowels = "iuoae";
 
   for (var nbr = 0; nbr < str.length; nbr++) {
+    // console.log(indexOf(str[nbr]));
     if (vowels.indexOf(str[nbr]) > -1) {
       count++;
     }
@@ -47,14 +48,17 @@ console.log(array2.length);
 //............................................
 // javascript string first letter uppercase
 
-// var str = "my name is nkurunziza karera olivier";
-// var str2 = str.split(" ");
-// console.log(str2.length);
+var str = "my name is nkurunziza karera olivier";
+var str2 = str.split(" ");
+console.log(str2.length);
 // var str3 = str2.replace(str2.charAt(0), str2.charAt(0).toUpperCase());
 // console.log(str3);
-// for (var i = 0; i <= str2.length; i++) {
-//   str(i).split(" ");
-//   console.log(i);
-//     var upper = str3.replace(str3.indexOf(0), str3.indexOf(0).toUpperCase());
-// }
-// console.log(upper);
+for (var i = 0; i <= str2.length; i++) {
+  // str(i).split(" ");
+  console.log(i);
+  var upper = str2(i).replace(
+    str2(i).indexOf(0),
+    str2(i).indexOf(0).toUpperCase()
+  );
+}
+console.log(upper);

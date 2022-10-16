@@ -14,8 +14,8 @@ function countString(str, letter) {
 }
 
 // take input from the user
-const string = prompt("Enter a string: ");
-const letterToCheck = prompt("Enter a letter to check: ");
+const string = "Enter a string: ";
+const letterToCheck = "n";
 
 //passing parameters and calling the function
 const result = countString(string, letterToCheck);

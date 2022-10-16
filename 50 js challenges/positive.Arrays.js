@@ -4,7 +4,7 @@ const positiveArrays = () => {
   for (let i = 0; i <= array.length; i++) {
     let nbr = array[i];
     if (nbr > 0) {
-      array2.push(nbr);
+      array2 = [nbr, ...array2];
     }
   }
   console.log(array2);
