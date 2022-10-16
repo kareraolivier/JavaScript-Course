@@ -2,9 +2,10 @@
 
 var stringOne = "K arera Is a Good person";
 var stringTwo = " he likes people. ";
+let srtingthree = "Dood";
 
 // charAt
-console.log(stringOne.charAt(2));
+console.log(stringOne.charAt(2)); // a
 
 //charCodeAt
 console.log(stringOne.charCodeAt(3));
@@ -17,7 +18,7 @@ console.log(String.fromCharCode(109));
 
 //includes
 console.log(stringTwo.includes("likes"));
-
+// console.log(stringTwo.includes(stringThree));
 //indexOf & lastIndexOf
 console.log(stringTwo.indexOf("e"));
 console.log(stringTwo.lastIndexOf("e"));

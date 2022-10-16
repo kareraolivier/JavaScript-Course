@@ -13,3 +13,13 @@ const arrayOfNbr = (str) => {
   return name;
 };
 console.log(arrayOfNbr("karera"));
+
+const newname = (str) => {
+  let myname = {};
+  let mystr = str.split("");
+  for (let element of mystr)
+    !myname[element] ? (myname[element] = 1) : myname[element]++;
+  return myname;
+};
+
+console.log(newname("imana niyo nkuru"));
